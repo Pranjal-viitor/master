@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .form {
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+  }
+  
+  .form .form__custom-button {
+    margin-top: 50px;
+  }
+  .w-100 {
+    width: 100% !important;
+  }
+  .d-flex {
+    display: flex !important;
+  }
+  .d-space-between {
+    justify-content: space-between !important;
+  }
+
+  .sidebar-lists .MuiListItem-root.active {
+    background-color: #1976d2;
+    color: #fff !important;
+  }
+  .sidebar-lists .MuiListItem-root.active svg {
+    color: #fff !important;
+  }
